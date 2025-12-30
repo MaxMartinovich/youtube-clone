@@ -3,31 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>youtube_clone</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Youtube_clone</title>
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
     <input class="barra-pesquisa" type="text" placeholder="Pesquisar" />
     <!-- Cria uma div(caixa) para cada uma das thumbnails+autor+atributos-->
     <div class ="visualizacao-video">
-         <img class="thumbnail" src="thumbnail/imagem1.avif" />
+        <div class = linha-thumbnail> 
+            <img class="thumbnail" src="thumbnail/imagem1.avif" />
+        </div>
 
-         <p class="titulo-video">
-            Como eu aprendi PROGRAMAÇÃO e consegui meu PRIMEIRO emprego com 17 anos
-         </p>
-         <p class="autor-video">Larissa Kich</p>
-         <p class="atributos-video">150 mil visualizações &#183 há 7 meses</p>
+        <div>
+            <div class ="icone-canal">
+                <img class="icone-perfil" src = "icones/icone1.jpg">
+            </div>
+            <div class ="info-video">
+                 <p class="titulo-video">
+                     Como eu aprendi PROGRAMAÇÃO e consegui meu PRIMEIRO emprego com 17 anos
+                 </p>
+                 <p class="autor-video">Larissa Kich</p>
+                 <p class="atributos-video">150 mil visualizações &#183 há 7 meses</p>
+            </div>
+        </div>
+
     </div>
 
      <!-- Cria uma div(caixa) para cada uma das thumbnails+autor+atributos-->
     <div class ="visualizacao-video">
-         <img class="thumbnail" src="thumbnail/imagem2.avif" />
+        <div class = linha-thumbnail> 
+            <img class="thumbnail" src="thumbnail/imagem2.avif" />
+        </div>
+        <div>
+            <div class ="icone-canal">
+                <img class="icone-perfil" src = "icones/icone2.jpg">
+            </div>
+            <div class ="info-video">
+                 <p class="titulo-video">
+                     JavaScript DOM Basics Explained |getElementById & querySelector for Beginners
+                 </p>
+                 <p class="autor-video">Peace Monye</p>
+                 <p class="atributos-video">6 visualizações &#183 há 19 horas</p>
+            </div>
+        </div>
 
-         <p class="titulo-video">
-            Animate Elements Along a Path Using CSS offset-path
-         </p>
-         <p class="autor-video">ALTERCODES</p>
-         <p class="atributos-video">59 visualizações &#183 há 2 dias</p>
     </div>
   </body>
 </html>
