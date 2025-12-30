@@ -1,0 +1,21 @@
+.thumbnail {
+  width: 300px;
+  display: block;
+}
+
+.barra-pesquisa {
+  display: block;
+}
+
+.titulo-video {
+}
+
+.autor-video {
+}
+.atributos-video {
+}
+
+.visualizacao-video {
+  width: 300px;
+  display: inline-block;
+}
