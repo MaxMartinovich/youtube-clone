@@ -75,9 +75,43 @@
   margin-right: 10px;
 }
 
+.lupa,
+.microfone,
+.upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.lupa .tooltip,
+.microfone .tooltip,
+.upload-container .tooltip {
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.lupa:hover .tooltip,
+.microfone:hover .tooltip,
+.upload-container:hover .tooltip {
+  opacity: 1;
+}
+
 .lupa-icone {
   height: 25px;
-  margin-top: 4px;
 }
 
 .microfone {
@@ -90,7 +124,6 @@
 
 .microfone-icone {
   height: 24px;
-  margin-top: 4px;
 }
 
 .upload {
