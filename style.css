@@ -8,6 +8,7 @@
   font-weight: 500;
   line-height: 20px;
   margin-bottom: 7px;
+  cursor: pointer;
 }
 
 .autor-video,
@@ -32,6 +33,7 @@
 .linha-thumbnail {
   margin-bottom: 8px;
   position: relative;
+  cursor: pointer;
 }
 
 .video-grid {
