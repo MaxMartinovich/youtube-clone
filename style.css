@@ -18,11 +18,16 @@
 }
 .autor-video {
   margin-bottom: 4px;
+  cursor: pointer;
+}
+.autor-video:hover {
+  color: #010101;
 }
 
 .video-info-grid {
   display: grid;
   grid-template-columns: 50px 1fr;
+  cursor: pointer;
 }
 
 .icone-perfil {
