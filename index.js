@@ -6,7 +6,7 @@ document.addEventListener("click", (event) => {
 });
 
 document.addEventListener("click", (event) => {
-  const titulo = event.target.closest(".info-video");
+  const titulo = event.target.closest(".titulo-video");
   if (!titulo) return;
 
   window.location.href = titulo.dataset.link;
