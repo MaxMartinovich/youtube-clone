@@ -2,19 +2,19 @@ document.addEventListener("click", (event) => {
   const thumb = event.target.closest(".linha-thumbnail");
   if (!thumb) return;
 
-  window.location.href = thumb.dataset.link;
+  window.open(thumb.dataset.link, "_blank");
 });
 
 document.addEventListener("click", (event) => {
   const titulo = event.target.closest(".titulo-video");
   if (!titulo) return;
 
-  window.location.href = titulo.dataset.link;
+  window.open(titulo.dataset.link, "_blank");
 });
 
 document.addEventListener("click", (event) => {
   const icone = event.target.closest(".icone-canal, .autor-video");
   if (!icone) return;
 
-  window.location.href = icone.dataset.link;
+  window.open(icone.dataset.link, "_blank");
 });
