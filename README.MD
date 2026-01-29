@@ -1,7 +1,5 @@
 # Youtube-Clone(Página Principal)
 
-# Tentativa de Clonar o Youtube(Página Principal) 
-
 ## Descrição
 Primeiro site que eu criei, tentei recriar de maneira exata algumas funcionalidades do Youtube, como os botões, a sidebar, a barra de pesquisa, além de colocar as thumbnails e os videos
 
