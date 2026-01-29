@@ -1,6 +1,6 @@
 # Youtube-Clone(Página Principal)
 
-![Imagem do Youtube Clone](https://maxmartinovich.github.io/youtube-clone/)
+<img src="https://maxmartinovich.github.io/youtube-clone/" alt="Imagem Youtube Clone">
 
 ## Descrição
 Primeiro site que eu criei, tentei recriar de maneira exata algumas funcionalidades do Youtube, como os botões, a sidebar, a barra de pesquisa, além de colocar as thumbnails e os videos
